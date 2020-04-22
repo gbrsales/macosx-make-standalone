@@ -1,0 +1,6 @@
+resolver: lts-15.9
+extra-deps:
+  - data-lens-2.11.2
+  - data-lens-template-2.2
+  - graph-visit-0.1.0.2
+allow-newer: true
