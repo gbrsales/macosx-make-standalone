@@ -12,7 +12,6 @@ import qualified Data.Sequence as Seq
 
 import           Control.Monad
 import           Control.Monad.State.Strict
-import           Control.Monad.Trans
 import           Control.Monad.Error.Class
 
 import qualified Control.Exception as CE
@@ -22,9 +21,7 @@ import           System.Environment
 import           System.IO
 import           System.Exit
 import           System.FilePath
-import           System.Directory
-import           System.Cmd
-import           System.Process
+import           System.Directory hiding (isSymbolicLink)
 import           System.Posix.Process
 import           System.Posix.Files
 
